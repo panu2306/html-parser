@@ -3,7 +3,7 @@
 ## Outline
 
  - [Installation](#installation)
- - [Using the API](#using-apis)
+ - [Using API](#using-api)
  - [Unit Testing](#unit-testing)
  - [Coverage, Breakeman and Rubycritic](#coverage)
 
@@ -18,8 +18,8 @@ This project is using several libraries and frameworks:
  - [RailsAdmin](https://github.com/sferik/rails_admin) - Database dashboard
  - [MiniTest](https://github.com/seattlerb/minitest) - Unit testing
  - [Factory Girl](https://github.com/thoughtbot/factory_girl_rails) - Fixture Replacement
- - [Brakeman](https://github.com/thoughtbot/factory_girl_rails) - Security Scanner
- - [Rubycritic](https://github.com/thoughtbot/factory_girl_rails) - Code Quality Scanner
+ - [Brakeman](https://github.com/presidentbeef/brakeman) - Security Scanner
+ - [Rubycritic](https://github.com/whitesmith/rubycritic) - Code Quality Scanner
 
 ## Installation
 
@@ -55,7 +55,7 @@ Running the seeds is importante because the tag_types
 
 And you have the HtmlParser running locally
 
-## Using the API
+## Using API
 
 The API has 2 endpoints, one for parsing urls and other for showing previously indexed urls
 
@@ -64,9 +64,20 @@ We use swagger to auto document the api endpoints. To use swagger:
 - Go to http(s)://#{url}/api/swagger.
 - In the explore field put http(s)://url/swagger_doc
 
+![alt tag](https://cloud.githubusercontent.com/assets/5366444/17562010/00548f30-5ee6-11e6-94e1-c528aca98113.png)
+
+
 From Swagger you can interact with the API:
 
-If you prefer to use curl, we can also interact with the API:
+Indexing pages:
+
+![alt tag](https://cloud.githubusercontent.com/assets/5366444/17561932/9d368656-5ee5-11e6-8c8d-fb2a5974f6cc.png)
+
+
+Checking existing pages:
+
+
+![alt tag](https://cloud.githubusercontent.com/assets/5366444/17561934/9fdfe71c-5ee5-11e6-8a86-026b506ea8bb.png)
 
 
 ## Unit Testing
@@ -89,6 +100,8 @@ rake test
 
 Currently we have a coverage of 97.67% as shown below:
 
+![alt tag](https://cloud.githubusercontent.com/assets/5366444/17561922/857b5cda-5ee5-11e6-84b0-2fed33287d6f.png)
+
 
 Go to /coverage folder and open index.html to visualize it.
 
@@ -96,6 +109,7 @@ Go to /coverage folder and open index.html to visualize it.
 
 We use Rubycritic as a tool for checking our code quality. Current Score:
 
+![alt tag](https://cloud.githubusercontent.com/assets/5366444/17561897/6c4bbe94-5ee5-11e6-8228-64bf2167930a.png)
 
 You can run inside the project:
 
@@ -115,6 +129,8 @@ https://gorillalogic.com/blog/best-practices/automatic-and-static-ruby-code-anal
 ### brakeman
 
 We use brakeman security scanner to check everything related with security is ok.
+
+![alt tag](https://cloud.githubusercontent.com/assets/5366444/17561880/5a88cf12-5ee5-11e6-807c-1b4d0e84319f.png)
 
 You can run inside the project:
 
