@@ -2,10 +2,8 @@
 
 one:
   content: MyString
-  page_id: 
-  tag_type_id: 
+  tag_type: one
 
 two:
   content: MyString
-  page_id: 
-  tag_type_id: 
+  tag_type: two

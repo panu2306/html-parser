@@ -29,6 +29,8 @@ gem 'rack-cors', :require => 'rack/cors'
 gem 'rubocop'
 gem 'nokogiri'
 gem 'rails_admin'
+gem 'rubycritic'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -42,11 +44,13 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   gem 'pry'
+  gem 'brakeman'
 end
 
 group :test do
   gem 'database_cleaner'
   gem 'factory_girl_rails'
+  gem 'simplecov'
 end
 
 group :development do

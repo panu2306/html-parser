@@ -23,9 +23,11 @@ module API
         end
         post do
           page = Page.new
-          page.index_content(params[:url])
-          unless page.save
-            return { status: false, error_code: 404, error_message: 'Error indexing the page' }
+          page.url = params[:url]
+          if !page.index_page(params[:url]) && !page.save
+            { status: false, error_code: 404, error_message: 'Error indexing the page' }
+          else
+            { status: true, message: 'Page successfully indexed' }
           end
         end
       end

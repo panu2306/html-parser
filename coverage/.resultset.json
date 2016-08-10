@@ -1,0 +1,111 @@
+{
+  "MiniTest": {
+    "coverage": {
+      "/Users/rvalenciano/Documents/projects/ucr/HtmlParser/test/support/factory_girl.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/rvalenciano/Documents/projects/ucr/HtmlParser/db/seeds.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/rvalenciano/Documents/projects/ucr/HtmlParser/app/models/tag_type.rb": [
+        1,
+        null
+      ],
+      "/Users/rvalenciano/Documents/projects/ucr/HtmlParser/test/models/tag_test.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/rvalenciano/Documents/projects/ucr/HtmlParser/test/models/tag_type_test.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/rvalenciano/Documents/projects/ucr/HtmlParser/app/models/page.rb": [
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        5,
+        1,
+        21,
+        21,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        3,
+        null,
+        null,
+        null
+      ],
+      "/Users/rvalenciano/Documents/projects/ucr/HtmlParser/app/models/concerns/linkable.rb": [
+        1,
+        1,
+        null,
+        null,
+        1,
+        3,
+        2,
+        null,
+        0,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/rvalenciano/Documents/projects/ucr/HtmlParser/app/models/tag.rb": [
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        42,
+        42,
+        210,
+        null,
+        42,
+        42,
+        42,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1470846137
+  }
+}

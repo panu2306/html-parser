@@ -13,7 +13,14 @@ module API
 
       mount API::V1::Pages
       # mount API::V1::AnotherResource
-      add_swagger_documentation api_version: 'v1'
+      add_swagger_documentation  \
+        info: {
+          title: 'Html Parser',
+          description: 'Parse Html documents .',
+          contact_name: 'Randall Valenciano Fallas',
+          contact_email: 'ravf.226@@gmail.com'
+        },
+        api_version: 'v1'
     end
   end
 end
