@@ -11,7 +11,7 @@
 
 This project is using several libraries and frameworks:
 
- - [Rails 5.0](http://rubyonrails.org/) - Web Framework
+ - [Rails 4.2.4](http://rubyonrails.org/) - Web Framework
  - [Grape](http://rdoc.info/github/intridea/grape) - API endpoints
  - [Swagger](https://github.com/ruby-grape/grape-swagger) - Swagger Compliant API documentation
  - [Swagger Ui](https://github.com/kendrikat/grape-swagger-ui) - Integrate rails assets with Swagger UI
